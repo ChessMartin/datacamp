@@ -9,6 +9,7 @@ def generate_dataset(f):
         df = pd.read_csv(f)
         df.columns = ['id', 'timestamp', 'long', 'lat']
         df['timestamp'] = pd.to_datetime(df['timestamp'])
+        df['deltatime'] =  (df.iloc[-1]['timestamp'] - df['timestamp']).dt.total_seconds()
         print(df)
         print(df.dtypes)
 
