@@ -1,0 +1,13 @@
+{
+    "NewYork": {
+        "TAXIS_IN_NY": 13473,
+        "CAR_IN_NY": 1400000
+    },
+    "Beijing": {
+        "KM_ROAD_BEJING":  16801,
+        "NUM_TOTAL_CAR_BEJING": 3300000,
+        "ALL_TAXIS": 66000,
+        "COEFF_TAXIS_BY_ALL_CAR": 50,
+        "COEFF_TAXIS_BY_ALL_TAXIS": 6.372501689678478
+    }
+}   
