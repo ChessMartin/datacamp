@@ -10,7 +10,6 @@ import streamlit as st
 import math
 from datetime import time
 
-from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
